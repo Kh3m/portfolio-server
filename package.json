@@ -1,0 +1,35 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio app for our company",
+  "main": "app.js",
+  "scripts": {
+    "start": "npm start",
+    "dev": "nodemon -r dotenv/config app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kh3m/portfolio-server.git"
+  },
+  "keywords": [
+    "portfolio",
+    "web",
+    "development",
+    "company"
+  ],
+  "author": "Kh3m",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kh3m/portfolio-server/issues"
+  },
+  "homepage": "https://github.com/kh3m/portfolio-server#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0"
+  }
+}
