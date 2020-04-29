@@ -19,17 +19,15 @@ and Install [MongoDB](https://www.mongodb.com) on your machine.
 
 A step by step series of examples that tell you how to get a development env running
 
-Steps
-
+Install all requried depedencies.
 ```
 npm install
 ```
-Installs all requried depedencies.
 
+Install all required development dependencies.
 ```
 npm install --save-dev
 ```
-Install all required development dependencies.
 
 Create a .env file on your root development directory.
 You will find a .env.example file that describes what keys are required and what the value looks like.
