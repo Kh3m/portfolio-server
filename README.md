@@ -22,21 +22,24 @@ A step by step series of examples that tell you how to get a development env run
 Steps
 
 ```
-Run npm install to install all depedencies and npm install --save-dev to install development dependencies.
+npm install
 ```
+Installs all requried depedencies.
+
+```
+npm install --save-dev
+```
+Install all required development dependencies.
 
 Create a .env file on your root development directory.
-
-```
-
 You will find a .env.example file that describes what keys are required and what the value looks like.
 
-
+Run the dev npm script command to start the deevelopment server
 ```
-Run the the dev npm script command to start the deevelopment server (```npm run dev```).
+npm run dev.
 ```
 
-Endpoints
+# Endpoints
 * POST /auth/local/signin 
     This let you sigin with username and password.
     data required {username: "khem6333@gmail.com", password: "your password"}
