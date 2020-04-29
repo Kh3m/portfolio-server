@@ -16,13 +16,13 @@ module.exports.signup = ( (req, res, next) => {
     }
 
     const fullname = req.body.fullname;
-    const username = req.body.email;
+    const email = req.body.email;
     const password = req.body.password;
 
     User.register(new User(
         {
             fullname,
-            username
+            email
         }), password, (error, user) => {
             if(error) {
                 const err = new Error("Failed to create user");
@@ -32,13 +32,13 @@ module.exports.signup = ( (req, res, next) => {
                 return next(err);
             }
             const token = jwt.sign({
-                    email: username
+                    email: email
             }, keys.TOKEN_SECRET, {expiresIn: "1h"})
 
             res.status(201).json({
                 message: "User created",
                 data: {
-                    email: user.username,
+                    email: user.email,
                     localid: user._id,
                     idToken: token,
                     expiresIn: 3600
@@ -55,13 +55,13 @@ module.exports.signin = (req, res, next) => {
         });
         if(!user) return res.status(401).json({ message: "Auth Fail - No User Found" });
         const token = jwt.sign({
-            email: user.username,
+            email: user.email,
             localid: user._id
         }, keys.TOKEN_SECRET, {expiresIn: "1h"});
         res.status(200).json({
             message: "Login Successful",
             data: {
-                email: user.username,
+                email: user.email,
                 localid:  user._id,
                 idToken: token,
                 expiresIn: 3600

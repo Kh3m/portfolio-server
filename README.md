@@ -40,11 +40,11 @@ npm run dev.
 # Endpoints
 * POST /auth/local/signin 
     This let you sigin with username and password.
-    data required {username: "khem6333@gmail.com", password: "your password"}
+    data required {email: "khem6333@gmail.com", password: "your password"}
 
 * POST /auth/local/signup
     This let you sigup with fullname, username and password.
-    data required {fullname: "Abdu Kareem Adamu", username: "khem6333@gmail.com", password: "your password"}
+    data required {fullname: "Abdu Kareem Adamu", email: "khem6333@gmail.com", password: "your password"}
 
 ## Built With
 
