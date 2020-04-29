@@ -1,3 +1,3 @@
-# Server api app for my portfolio company
+# Server RESTful api for my company portfolio app 
 
 ## How to use this api

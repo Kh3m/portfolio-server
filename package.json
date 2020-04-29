@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "Portfolio_RESTful_API",
   "version": "1.0.0",
   "description": "Portfolio app for our company",
   "main": "app.js",
@@ -26,8 +26,12 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "express-validator": "^6.4.0",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.9",
-    "multer": "^1.4.2"
+    "multer": "^1.4.2",
+    "passport": "^0.4.1",
+    "passport-local-mongoose": "^6.0.1"
   },
   "devDependencies": {
     "dotenv": "^8.2.0"
