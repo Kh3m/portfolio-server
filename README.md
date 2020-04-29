@@ -48,12 +48,12 @@ Endpoints
 
 * [ReactJS](http://www.reactjs.org/docs/getting-started/html) - The web framework used
 * [Npm](https:///) - Dependency Management
-* [NodeJS](https://nodejs.or.io/rome/) - Used to generate RSS Feeds
-* [MongoDB](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [NodeJS](https://nodejs.org/) - used to generate servercies for client.
+* [MongoDB](https://mongodb.com/) - fused tr storing datas used
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://www.github.com/kh3m/portfolio-client/contributor.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
