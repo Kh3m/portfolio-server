@@ -41,16 +41,17 @@ npm run dev.
 * POST /auth/local/signin 
     This let you sigin with username and password.
     data required {username: "khem6333@gmail.com", password: "your password"}
+
 * POST /auth/local/signup
     This let you sigup with fullname, username and password.
     data required {fullname: "Abdu Kareem Adamu", username: "khem6333@gmail.com", password: "your password"}
 
 ## Built With
 
-* [ReactJS](http://www.reactjs.org/docs/getting-started/html) - The web framework used
-* [Npm](https:///) - Dependency Management
-* [NodeJS](https://nodejs.org/) - used to generate servercies for client.
-* [MongoDB](https://mongodb.com/) - fused tr storing datas used
+* [ReactJS](http://www.reactjs.org/docs/getting-started/html) - The Web Framework used.
+* [Npm](https:///) - Dependency Management.
+* [NodeJS](https://nodejs.org/) - Used for the servercies provided for the client app.
+* [MongoDB](https://mongodb.com/) - Used for storing the datas.
 
 ## Contributing
 
@@ -64,7 +65,7 @@ We use [Git](http://git.org/) for versioning. For the versions available, see th
 ## Authors
 
 * **Abdul Kareem - Kh3m** - *Server* - [Portfolio-Server](https://github.com/Kh3m)
-* **Ahmad Sheik Tijani - Ahmeddoo** - *Client* - [Portfolio-Server](https://github.com/ahmeddoo)
+* **Ahmad Sheik Tijani - Ahmeddoo** - *Client* - [Portfolio-Client](https://github.com/ahmeddoo)
 
 See also the list of [client contributors](https://github.com/ahmeddoo/portfolio/contributors) who participated in this project.
 
